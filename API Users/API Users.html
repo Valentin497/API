@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Get data from API Users</h1>
+    <div class="user-cards" data-user-cards-container></div>
+
+    <template data-user-template>
+      <div class="card">
+        <div class="name" data-name></div>
+        <div class="username" data-username></div>
+        <div class="email" data-email></div>
+        <div class="address" data-address>
+          Address:
+          <div class="street" data-street></div>
+          <div class="suite" data-suite></div>
+          <div class="city" data-city></div>
+          <div class="zipcode" data-zipcode></div>
+          Geo:
+          <div class="lat" data-lat></div>
+          <div class="lng" data-lng></div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
